@@ -27,7 +27,6 @@ app.use(cookieParser());
 //   credentials: true,
 // };
 // app.use(cors(corsOptions));
-//new
 // Serve static files from the React app
 const __dirname = path.resolve(); // If using ES6 modules, you need to resolve __dirname
 app.use(express.static(path.join(__dirname, "build")));
